@@ -1,0 +1,24 @@
+.btn {
+
+    position: relative;
+    padding: 20px 70px;
+    margin-top: 50px;
+
+    border-radius: 5px;
+    border: none;
+
+    font-family: $bebas;
+    font-size: 30px;
+    color: white;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.6);
+
+    background: #2596e5;
+
+    &:active {
+        box-shadow: none!important;
+        top: 5px;
+    }
+
+}
+
+.btn.green { background: $green; box-shadow: 0px 5px darken($green, 10); }

@@ -1,0 +1,19 @@
+/*
+    partials/_header.scss
+*/
+
+body > header {
+    line-height: 100px;
+    height: 100px;
+    background: $header;
+    position: relative;
+    text-align: center;
+    box-shadow: 0px 5px 0 rgba(255, 255, 255, 0.3);
+}
+
+body > header h1 {
+    color: #fdfae7;
+    text-shadow: 0px 1px desaturate(darken(#fdfae7, 30), 60),
+                 0px 2px desaturate(darken(#fdfae7, 30), 60),
+                 0px 3px desaturate(darken(#fdfae7, 30), 60);
+}

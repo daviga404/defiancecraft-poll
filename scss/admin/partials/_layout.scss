@@ -1,0 +1,35 @@
+/*
+    admin/partials/_layout.scss
+*/
+body > section {
+
+    padding: 20px;
+    text-align: center;
+
+    * {
+        text-align: center;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+        text-align: left!important;
+    }
+
+}
+
+.omega {
+    margin-top: 20px;
+}
+
+header h1 small {
+    font-family: 'Arial', sans-serif;
+    font-size: 11px;
+    a {
+        text-decoration: none;
+        color: #CCC;
+        margin-left: 10px;
+        &:hover {
+            color: #DDD;
+        }
+    }
+}

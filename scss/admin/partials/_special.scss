@@ -1,0 +1,36 @@
+/*
+    admin/partials/_special.scss
+*/
+.votes {
+
+    width: 600px;
+    height: 40px;
+    line-height: 40px;
+    margin: 15px auto;
+    margin-bottom: 40px;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 5px;
+    text-align: left;
+
+    .progress {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        width: 50%;
+        background: #000;
+
+        &.left  { background: $green; text-align: left; }
+        &.right { background: $red;   text-align: right; left: auto; right: 0; }
+        b {
+            margin: 0 8px;
+            font-weight: normal;
+            text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.6);
+            color: white;
+        }
+    }
+
+}

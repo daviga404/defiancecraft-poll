@@ -1,0 +1,39 @@
+/*
+    partials/_responsive.scss
+*/
+
+@media screen and (max-width: 1700px) {
+
+    body > section .half h2 {
+        font-size: 70px;
+    }
+
+}
+
+@media screen and (max-width: 1470px) {
+
+    body > section .half h2 {
+        font-size: 50px;
+    }
+
+}
+
+@media screen and (max-width: 960px) {
+
+    body > section .half h2 {
+        font-size: 50px;
+    }
+
+    .btn {
+        padding: 10px 40px;
+    }
+
+}
+
+@media screen and (max-width: 790px) {
+
+    body > section .container {
+        height: 470px;
+    }
+
+}

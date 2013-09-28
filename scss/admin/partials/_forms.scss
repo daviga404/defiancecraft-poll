@@ -1,0 +1,124 @@
+/*
+    admin/partials/_forms.scss
+*/
+form.login {
+
+    @include center;
+
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    height: 280px;
+    width: 300px;
+    text-align: center;
+
+    h1 {
+        font-family: 'Bebas Neue', 'BebasNeue', 'Oswald', Impact, Arial, sans-serif;
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 60px;
+        background: #EEE;
+        border-radius: 5px;
+        line-height: 60px;
+    }
+
+    h1 + * {
+        position: relative;
+        top: 65px;
+    }
+
+}
+
+form.login ul {
+
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+
+    li {
+        display: block;
+        padding: 10px 0;
+    }
+
+}
+
+form.login label {
+    color: #999;
+    font-size: 12px;
+    width: 65px;
+    text-align: left;
+}
+
+form.login input[type="text"],
+form.login input[type="password"] {
+    margin-left: 10px;
+    height: 35px;
+    padding: 0 5px;
+    border: 1px solid #DDD;
+}
+
+form.login .btn {
+
+    font-size: 25px;
+    padding: 15px 60px;
+    margin-top: 25px;
+
+}
+
+form.polls {
+    
+    padding: 15px;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+    display: block;
+    background: #EEE;
+
+}
+
+form.polls table {
+
+    width: 100%;
+    table-layout: fixed;
+
+}
+
+form.polls thead tr {
+
+    border-bottom: 1px solid #BBB;
+    height: 35px;
+    vertical-align: top;
+
+}
+
+form.polls tbody tr {
+
+    height: 50px;
+    border-bottom: 1px solid #DDD;
+    td {
+        box-shadow: inset 0px 5px 10px -5px rgba(0,0,0,0.4);
+        background: #FFF;
+        position: relative;
+        input[type="text"] {
+            position: absolute;
+            top: 12px; bottom: 12px; left: 12px; right: 12px;
+            text-align: left;
+        }
+    }
+}
+
+form.polls .btn {
+
+    margin-top: 10px;
+    font-size: 25px;
+    padding: 10px 20px;
+
+}
+
+form input {
+    
+    text-align: left;
+
+}
