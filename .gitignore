@@ -1,5 +1,5 @@
 php/data/votes.db
 
-.sass-cache/*
+.sass-cache*
 
 css/fonts/Lobster-*
